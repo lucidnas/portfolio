@@ -1,25 +1,58 @@
 body {
-	font-family: 'Roboto', sans-serif;
-}
-.container {
+	width: 70%;
+	font-family: cursive;
 	display: flex;
 	flex-wrap: wrap;
+	float: right;
 }
-.menu {
-	width: 15%;
+header {
+	width: inherit;
+	position: relative;
+	height: 90%;
 }
-.portfolio {
-	width: 85%;
+.author {
+	float:right;
+	text-transform: uppercase;
 }
-.item {
+
+.author > h4{
+	float:right;
+	margin-top:inherit;
+}
+.logo > img {
+	width: 10%;
+}
+
+.logo {
+	width : 100%;
+	margin-top:3%;
+}
+.main-project-container {
+	width: inherit;
+	margin-top: auto;
+}
+.main-body-container {
+	width: inherit;
+}
+.project {
+	width: inherit;
+	float: right;
+	background-color: green;
+}
+.project-info {
+	width: inherit;
+}
+.featured {
+	float: left;
+}
+.center-image {
+    margin-top: 2%;
+    width: 100%;
+}
+.center-image > img {
 	width: 100%;
-	clear: both;
 }
-.item img {
-	float: left
-}
-.item span {
-	display: table-cell;
-	vertical-align: middle;
-	height: 240px;
+hr {
+	border: 2px solid darkgray;
+	width: 100%;
 }
