@@ -1,0 +1,89 @@
+body {
+	font-family: cursive;
+	margin: 0 auto;
+	min-width: 20%;
+	max-width: 60%;
+	/* background-color: blue; */
+}
+header {
+	width: 100%;
+}
+.author {
+	float:right;
+	text-transform: uppercase;
+	margin-top: 4%;
+}
+
+.author > h4{
+	float:right;
+	margin-top:0%;
+	margin-bottom: 5%;
+	font-size: 150%;
+}
+
+.author > h1{
+	font-size: 250%;
+	margin-bottom: 0%;
+}
+.logo > img {
+	width: 30%;
+	margin: 20% auto auto auto;
+	float: left;
+}
+
+.main-project-container {
+	width: 100%;
+	margin-top: auto;
+	display: flex;
+	order: 4;
+}
+.main-body-container {
+	width: 100%;
+	display: flex;
+	background-color: beige;
+}
+.project.info.first {
+	max-width: 33.3%;
+	margin: auto 2% auto 0%;
+}
+
+.project.info.second {
+	max-width: 33.3%;
+	margin: auto;
+}
+
+.project.info.third {
+	max-width: 33.3%;
+	margin: auto 0% auto 2%;
+}
+
+.project > img {
+	max-width: 100%;
+
+}
+
+.project > p , h2 {
+	text-align: center;
+	margin:1%;
+}
+.featured {
+	float: left;
+	width: 100%;
+	order: 2;
+}
+
+.featured.works > h2{
+	text-align:left;
+}
+.portfolio-image {
+    margin-top: 3%;
+    width: 100%;
+
+}
+.portfolio-image > img {
+	width: 100%;
+}
+hr {
+	border: 2px solid #7d97ad;
+	width: 99.5%;
+}

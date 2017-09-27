@@ -1,0 +1,84 @@
+body {
+	font-family: cursive;
+	margin: 0 auto;
+	min-width: 20%;
+	max-width: 60%;
+	/* background-color: blue; */
+}
+header {
+	width: 100%;
+}
+.author {
+	float:right;
+	text-transform: uppercase;
+}
+
+.author > h4{
+	float:right;
+	margin-top:0%;
+	margin-bottom: 5%;
+	font-size: medium;
+}
+
+.author > h1{
+	font-size: x-large;
+	margin-bottom: 0%;
+}
+.logo {
+	width: 30%;
+	float: left;
+	margin-bottom:1%;
+	margin-top:1%;
+	/* background-color: aquamarine; */
+}
+
+.logo > img {
+	width: 30%;
+	margin: 8% auto auto auto;
+	float: left;
+}
+
+.main-project-container {
+	width: 100%;
+}
+
+.project > img {
+	width: 100%;
+}
+
+.project > p {
+	text-align: center;
+	margin:1%;
+	font-size:small;
+}
+
+.project > h2 {
+	text-align: center;
+	margin:1%;
+	font-size:large;
+	text-transform:uppercase;
+}
+
+.featured.works > h2{
+	text-align:left;
+	font-size: larger;
+}
+.featured {
+	float: left;
+	width: 100%;
+	order: 2;
+}
+
+
+.portfolio-image {
+    margin-top: 3%;
+    width: 100%;
+    /*background-color: bisque;*/
+}
+.portfolio-image > img {
+	width: 100%;
+}
+hr {
+	border: 2px solid darkgray;
+	width: 99.5%;
+}
