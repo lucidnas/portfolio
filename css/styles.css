@@ -67,12 +67,12 @@ header {
 	text-align:left;
 	font-size: larger;
 }
+
 .featured {
 	float: left;
 	width: 100%;
 	order: 2;
 }
-
 
 .portfolio-image {
     margin-top: 3%;
@@ -95,25 +95,28 @@ hr {
 		max-width: 60%;
 		/* background-color: blue; */
 	}
+
 	header {
 		width: 100%;
 	}
+
 	.author {
 		float:right;
 		text-transform: uppercase;
 	}
 
-	.author > h4{
+	.author > h4 {
 		float:right;
 		margin-top:0%;
 		margin-bottom: 5%;
 		font-size: 30%;
 	}
 
-	.author > h1{
+	.author > h1 {
 		font-size: 70%;
 		margin-bottom: 0%;
 	}
+
 	.logo {
 		width: 30%;
 		float: left;
@@ -157,6 +160,7 @@ hr {
 		text-align:left;
 		font-size: larger;
 	}
+
 	.featured {
 		float: left;
 		width: 100%;
@@ -169,9 +173,11 @@ hr {
 	    width: 100%;
 	    /*background-color: bisque;*/
 	}
+
 	.portfolio-image > img {
 		width: 100%;
 	}
+
 	hr {
 		border: 2px solid #7d97ad;
 		width: 99.5%;
@@ -187,9 +193,11 @@ hr {
 		max-width: 60%;
 		/* background-color: blue; */
 	}
+
 	header {
 		width: 100%;
 	}
+
 	.author {
 		float:right;
 		text-transform: uppercase;
@@ -255,7 +263,6 @@ hr {
 		order: 2;
 	}
 
-
 	.portfolio-image {
 	    margin-top: 3%;
 	    width: 100%;
@@ -264,6 +271,7 @@ hr {
 	.portfolio-image > img {
 		width: 100%;
 	}
+
 	hr {
 		border: 2px solid #7d97ad;
 		width: 99.5%;
@@ -342,6 +350,7 @@ hr {
 		text-align: center;
 		margin:1%;
 	}
+
 	.featured {
 		float: left;
 		width: 100%;
@@ -351,14 +360,16 @@ hr {
 	.featured.works > h2{
 		text-align:left;
 	}
+	
 	.portfolio-image {
 	    margin-top: 3%;
 	    width: 100%;
-
 	}
+
 	.portfolio-image > img {
 		width: 100%;
 	}
+
 	hr {
 		border: 2px solid #7d97ad;
 		width: 99.5%;
