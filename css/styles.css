@@ -245,7 +245,7 @@ hr {
 	.project > h2 {
 		text-align: center;
 		margin:1%;
-		font-size:large;
+		font-size:x-large;
 		text-transform:uppercase;
 	}
 
@@ -255,7 +255,7 @@ hr {
 
 	.featured.works > h2{
 		text-align:left;
-		font-size: larger;
+		font-size: 200%;
 	}
 	.featured {
 		float: left;
@@ -359,8 +359,9 @@ hr {
 
 	.featured.works > h2{
 		text-align:left;
+		font-size: 200%
 	}
-	
+
 	.portfolio-image {
 	    margin-top: 3%;
 	    width: 100%;
