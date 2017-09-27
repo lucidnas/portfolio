@@ -1,3 +1,5 @@
+
+/* Stylesheet when witdth is less than 500px*/
 body {
 	font-family: cursive;
 	margin: 0 auto;
@@ -87,6 +89,7 @@ hr {
 	width: 99.5%;
 }
 
+/* Stylesheet when witdth is greater than 500px*/
 @media only screen and (min-width: 500px) {
 	body {
 		font-family: cursive;
@@ -184,7 +187,7 @@ hr {
 	}
 }
 
-
+/* Stylesheet when witdth is greater than 800px*/
 @media only screen and (min-width: 800px) {
 	body {
 		font-family: cursive;
@@ -278,6 +281,7 @@ hr {
 	}
 }
 
+/* Stylesheet when witdth is greater than 1300px*/
 @media only screen and (min-width: 1300px) {
 	body {
 		font-family: cursive;
